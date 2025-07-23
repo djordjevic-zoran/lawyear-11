@@ -9458,4 +9458,32 @@ h1, .h1, .h1 {
 h2, .h2, .h2 {
   line-height: 4.259rem; }
 
+header .navbar-brand {
+  max-width: 100px;
+  padding: 0; }
+  header .navbar-brand img {
+    display: block; }
+
+header .navbar-toggler span {
+  width: 3rem;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #1A77CD;
+  display: block; }
+  header .navbar-toggler span:last-of-type {
+    margin-bottom: 0; }
+
+@media (min-width: 992px) {
+  header .navbar-nav .nav-item {
+    margin-left: 5.2rem; } }
+
+header .navbar-nav .nav-item .nav-link {
+  font-size: 1.4rem;
+  line-height: 1.659rem;
+  padding: 10px 0;
+  font-weight: 500; }
+  @media (min-width: 992px) {
+    header .navbar-nav .nav-item .nav-link {
+      padding: 0; } }
+
 /*# sourceMappingURL=theme.css.map */
