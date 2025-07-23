@@ -9486,4 +9486,16 @@ header .navbar-nav .nav-item .nav-link {
     header .navbar-nav .nav-item .nav-link {
       padding: 0; } }
 
+.herro-section {
+  padding: 8.9rem 0 9rem;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto 100%; }
+  .herro-section .herro-content {
+    background-color: rgba(255, 255, 255, 0.6); }
+    .herro-section .herro-content .herro-description {
+      margin-bottom: 5.9rem; }
+    .herro-section .herro-content .read-more {
+      font-size: 1.4rem; }
+
 /*# sourceMappingURL=theme.css.map */
