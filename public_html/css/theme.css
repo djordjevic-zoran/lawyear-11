@@ -9498,4 +9498,16 @@ header .navbar-nav .nav-item .nav-link {
     .herro-section .herro-content .read-more {
       font-size: 1.4rem; }
 
+.services-section {
+  padding: 11rem 0 11.3rem; }
+  .services-section .services-section-title {
+    margin-bottom: 6.1rem; }
+  .services-section .services-description {
+    margin-bottom: 2rem; }
+    .services-section .services-description .services-title {
+      color: #000;
+      padding-left: 2.4rem; }
+      .services-section .services-description .services-title:hover {
+        color: #1A77CD; }
+
 /*# sourceMappingURL=theme.css.map */
