@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     //ANIMATION
     function animation() {
         let  windowHeight = $(window).height();
@@ -20,7 +20,7 @@ $(document).ready(function(){
         animation();
     });
     animation();
-    
+
     //validate form
 
     if ($('.contact-form').length > 0) {
@@ -61,7 +61,27 @@ $(document).ready(function(){
             }
         });
     }
-    
-    
+
+    if ($('.theme-slide').length > 0) {
+        $('.theme-slide').owlCarousel({
+            loop: true,
+            dots: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    dots: true
+                },
+                768: {
+                    items: 2,
+                    nav: false,
+                    margin: 24
+                }
+                
+            }
+        });
+    }
+
+
 });
 
