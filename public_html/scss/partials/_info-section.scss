@@ -1,0 +1,15 @@
+
+$info-bg: $dark-color;
+$info-color-text: #586C88;
+.info-section{
+    padding: 7.8rem 0 9.34rem;
+    background-color: $info-bg;
+    .info-section-title{
+        margin-bottom: 5.2rem;
+    }
+    .info-data{
+        p, a{
+            color: $info-color-text;
+        }
+    }
+}

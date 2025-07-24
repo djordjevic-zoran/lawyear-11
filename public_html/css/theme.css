@@ -9546,4 +9546,12 @@ header .navbar-nav .nav-item .nav-link {
       width: 100%;
       transition: 0.3s linear; }
 
+.info-section {
+  padding: 7.8rem 0 9.34rem;
+  background-color: #11284B; }
+  .info-section .info-section-title {
+    margin-bottom: 5.2rem; }
+  .info-section .info-data p, .info-section .info-data a {
+    color: #586C88; }
+
 /*# sourceMappingURL=theme.css.map */
