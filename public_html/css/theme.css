@@ -9554,4 +9554,19 @@ header .navbar-nav .nav-item .nav-link {
   .info-section .info-data p, .info-section .info-data a {
     color: #586C88; }
 
+footer {
+  padding: 2.8rem 0 2.7rem; }
+  footer .copyright {
+    color: #586C88;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-weight: 500; }
+  footer .social .social-icon {
+    font-size: 2rem;
+    color: #000;
+    margin: 0 5px;
+    transition: 0.3s linear; }
+    footer .social .social-icon:hover {
+      transform: rotate(360deg) scale(1.3); }
+
 /*# sourceMappingURL=theme.css.map */
